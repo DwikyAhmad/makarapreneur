@@ -183,8 +183,12 @@ export default function Navbar({ notTransparent }: NavbarProps) {
 
         return (
             <Link
+
+              className="bg-zinc-800 text-juneBud rounded-full px-4 py-3 font-poppins text-base font-medium hover:bg-zinc-700 transition-colors text-center flex items-center justify-center gap-2"
+
                 href="/authentication/login"
                 className="w-full px-6 py-2.5 font-poppins text-center bg-juneBud hover:bg-juneBud/90 text-zinc-900 font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+
             >
                 Login
             </Link>
